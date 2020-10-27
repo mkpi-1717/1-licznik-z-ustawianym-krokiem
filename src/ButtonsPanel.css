@@ -1,0 +1,19 @@
+.button {
+    margin: 10px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    height: 40px;
+    width: 60px;
+}
+
+.button:hover {
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+}
+
+.button:active {
+    transform: translate(0, 0.1rem);
+    background-color: darkblue;
+}
